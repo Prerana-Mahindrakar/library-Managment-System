@@ -30,6 +30,36 @@ A simple and efficient **Library Management System** built using **PHP, HTML, CS
    ```bash
    git clone https://github.com/Prerana-Mahindrakar/Library-Managment-System.git
 
+
+## ▶️ How to Run the Project
+
+1. **Install a local server** like [XAMPP](https://www.apachefriends.org/) or [WAMP](http://www.wampserver.com/)
+
+2. **Place the project in your server directory**
+   - For XAMPP: Copy the entire `library-management-system` folder into `C:\xampp\htdocs\`
+
+3. **Start Apache and MySQL** from the XAMPP Control Panel
+
+4. **Import the Database**
+   - Open `http://localhost/phpmyadmin`
+   - Create a new database (e.g., `library_db`)
+   - Import the `library.sql` file provided in the project
+
+5. **Configure Database**
+   - Open `sc/config.php` and update with your database info:
+
+     ```php
+     $conn = new mysqli("localhost", "root", "", "library_db");
+     ```
+
+6. **Run the Project**
+   - Open your browser and go to:  
+     `http://localhost/library-management-system/sc/`
+
+   - You should now see the homepage (like login or dashboard)
+
+   
+
 ## 📷 Screenshots
 
 ### 🔹 Home Page
