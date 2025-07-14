@@ -28,4 +28,15 @@ A simple and efficient **Library Management System** built using **PHP, HTML, CS
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/library-management-system.git
+   git clone https://github.com/Prerana-Mahindrakar/Library-Managment-System.git
+
+## 📷 Screenshots
+
+### 🔹 Home Page
+![Home Page](Screenshots/login page.png)
+
+### 🔹 User login Page
+![User login Page](Screenshots/user login.png)
+
+### 🔹 Admin login Page
+![Admin login Page](Screenshots/admin login.png)
